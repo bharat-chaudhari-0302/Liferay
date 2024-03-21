@@ -46,7 +46,9 @@ These instructions will help you set up and configure the Node.js environment fo
 
 3. You can change the versions according to your need
 4. Save the `build.gradle` file.
-
+5. update your gradle.properties file and add below line
+   
+    ```liferay.workspace.node.package.manager=npm```
 ### Usage
 
 To use the provided Gradle script for configuring the Node.js environment in your project, follow these steps:
